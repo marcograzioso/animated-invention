@@ -25,7 +25,7 @@ public class MyController {
 	@Autowired
 	private FilmService filmService;
 	
-	@GetMapping("prova/prova2")
+	@GetMapping("prova/prova2/prova3")
 	public String prova(Model m, HttpSession session) {
 		
 		session.setAttribute("nomeutente", "Marco");
